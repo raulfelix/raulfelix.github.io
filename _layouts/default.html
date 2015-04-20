@@ -1,7 +1,43 @@
-<div class="content">
-  <div class="f-grid f-row">
-    <div class="f-1">
-      hi
-    </div>
+---
+layout: default
+title: Raul Felix Carrizo
+---
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+  <title>Raul Felix Carrizo</title>
+
+  <link rel="icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+  
+  {% include header.html %}
+  
+  <div class="content">
+    <section class="content-primary">
+      <div class="f-grid f-row">
+        <div class="f-1">
+          {{ content }}
+        </div>
+      </div>
+    </section>
+    <section class="content-secondary">
+      <div class="f-grid f-row">
+        <div class="f-1">
+          <h2>Education</h2>
+          <h6>Bachelor of Software Engineering</h6>
+          <p>The University of Sydney</p>
+        </div>
+      </div>
+    </section>
   </div>
-</div>
+  
+</body>
+  
+</html>
