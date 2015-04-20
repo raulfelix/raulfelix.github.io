@@ -11,6 +11,6 @@ Right now...
 
 Working for the **Commonwealth Bank** exploring the future of customer and staff engagement models through rapid prototyping and design thinking. I am also exploring technology stacks and workflow patterns.
 
-I recently collaborated on and built [lifewithoutandy.com](http://lifewithoutandy.com) - a customised Wordpress managed site.
+I recently collaborated on and built [lifewithoutandy.com](http://lifewithoutandy.com) - a customised Wordpress managed site with a global fan base.
 
 Please get in touch with me at [raulfelixcarrizo@gmail.com](mailto:raulfelixcarrizo@gmail.com) to find out more about me.

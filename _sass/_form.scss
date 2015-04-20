@@ -1,0 +1,26 @@
+input {
+  border: 1px solid #F0F0F0;
+  font-size: 14px;
+  font-family: $light;
+  padding: rem(10);
+  width: rem(320);
+  
+  &:active, &:focus {
+    border: 1px solid #8bedff;
+  }
+}
+
+
+.input {
+  
+}
+
+.input-inline {
+  position: relative;
+  
+  input {
+    position: absolute;
+    top: rem(-10);
+    right: 0;
+  }
+}

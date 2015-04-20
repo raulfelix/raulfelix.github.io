@@ -5,7 +5,7 @@ title: Raul Felix Carrizo
 
 <!DOCTYPE html>
 
-<html>
+<html ng-app="app.raulfelix">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
@@ -33,11 +33,107 @@ title: Raul Felix Carrizo
           <h2>Education</h2>
           <h6>Bachelor of Software Engineering</h6>
           <p>The University of Sydney</p>
+          
+          <div class="input input-inline l-break-top" ng-controller="SkillsCtrl as skills">
+            <h2>Detailed skills</h2>
+<!--            <input type="text" placeholder="Search skillset..." />-->
+          </div>
+          <div class="card-tabular">
+            <div class="card-row">
+              <div class="f-1-3">
+                <h6>Industry experience</h6>
+              </div>
+              <div class="f-2-3">
+                <ul>
+                  <li>Mining</li>
+                  <li>Finance (CBA)</li>
+                  <li>Government (DOD)</li>
+                  <li>Education/Scientific research</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="card-row">
+              <div class="f-1-3">
+                <h6>Main technologies</h6>
+              </div>
+              <div class="f-2-3">
+                <h6>Front end</h6>
+                <p>HTML5, CSS3, Sass, Javascript, Grunt</p>
+                
+                <h6>Programming languages</h6>
+                <p>Java, PHP, Ruby, C#</p>
+                
+                <h6>Javascript frameworks</h6>
+                <p>AngularJS, Backbone</p>
+                
+                <h6>Templating frameworks</h6>
+                <p>Handlebars, HAML, JSP, Razor</p>
+                
+                <h6>Web application frameworks</h6>
+                <p>Ruby on Rails, Spring MVC</p>
+                
+                <h6>Mobile application frameworks</h6>
+                <p>Android Native, Apache Cordova</p>
+                
+                <h6>Content management systems</h6>
+                <p>Ghost, Wordpress</p>
+                
+                <h6>Testing</h6>
+                <p>Mocha, Phantom JS, Jasmine, Rspec, Cucumber, Selenium</p>
+              </div>
+            </div>
+            
+            <div class="card-row">
+              <div class="f-1-3">
+                <h6>Processes</h6>
+              </div>
+              <div class="f-2-3">
+                <ul>
+                  <li>Agile</li>
+                  <li>Kanban</li>
+                  <li>SDLC</li>
+                  <li>Behavioural driven development (BDD)</li>
+                  <li>Test driven development (TDD)</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="card-row">
+              <div class="f-1-3">
+                <h6>Productivity tools</h6>
+              </div>
+              <div class="f-2-3">
+                <ul>
+                  <li>Jira</li>
+                  <li>Git</li>
+                  <li>Bitbucket</li>
+                  <li>Confluence</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="card-row">
+              <div class="f-1-3">
+                <h6>Other</h6>
+              </div>
+              <div class="f-2-3">
+                <ul>
+                  <li>Sketch</li>
+                  <li>Photoshop</li>
+                  <li>Illustrator</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
         </div>
       </div>
     </section>
   </div>
   
+  <script type="text/javascript" src="assets/js/vendor/angular.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
   
 </html>

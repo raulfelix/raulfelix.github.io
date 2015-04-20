@@ -9,3 +9,30 @@
   background-color: #fafafa;
   padding: rem(60) 0;
 }
+
+.card-tabular {
+  background-color: $white;
+  border: 1px solid #F0F0F0;
+  overflow: auto;
+  padding: rem(40);
+  
+  .card-row {
+    margin-bottom: rem(40); 
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+    &:after {
+      content: '';
+      height: 0;
+      display: block;
+      visibility: hidden;
+      clear: both;
+    }
+  }
+}
+
+.l-break-top {
+  margin-top: rem(60);
+}
