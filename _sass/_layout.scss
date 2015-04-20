@@ -19,7 +19,8 @@
   .card-row {
     margin-bottom: rem(40); 
     
-    &:last-child {
+    &:last-child,
+    p:last-child {
       margin-bottom: 0;
     }
     
@@ -35,4 +36,15 @@
 
 .l-break-top {
   margin-top: rem(60);
+}
+
+@include bp(mobile) {
+  .card-tabular {
+    padding: rem(20);
+  }
+  
+  .card-row .f-1-3 h6 {
+    font-size: 20px;
+    margin-bottom: rem(10);
+  }
 }

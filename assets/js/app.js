@@ -32,8 +32,6 @@
     $scope.skills = {
       
     };
-    
-    console.log('skills CTRl');
   }
   
 })();
