@@ -18,37 +18,7 @@
 (function() {
 
   angular
-    .module('app.experience', []);
-  
-})();
-(function() {
-
-  angular
     .module('app.skills', []);
-  
-})();
-(function() {
-  
-  angular
-    .module('app.experience')
-    .controller('ExperienceCtrl', ExperienceCtrl);
-  
-  function ExperienceCtrl($scope) {
-    
-    $scope.experience = [
-      {
-        position: 'Lead Front End Engineer/UX Specialist',
-        duration: 'Oct 2014 - present',
-        company: {
-          name: 'Commonwealth Bank',
-          logo: 'assets/images/lgo-cba.png'
-        },
-        technologies: 'AngularJS, Apache Cordova, Grunt, Javascript, Design thinking',
-        description: 'The details of this work is sensitive but the nature of the work is to provide software development skills in mobile and web contexts as well as user experience guidance. In addition, I build prototypes that experiment with technologies and user interaction patterns which are then taken into production.'
-      }
-    ];
-    
-  }
   
 })();
 (function() {
@@ -76,24 +46,28 @@
             'skills': ['Java', 'PHP', 'Ruby', 'C#']
           },
           {
-            'subtitle': 'Javascript frameworks',
-            'skills': ['AngularJS', 'Backbone.js']
-          },
-          {
-            'subtitle': 'Templating frameworks',
-            'skills': ['Handlebars', 'HAML', 'JSP']
-          },
-          {
             'subtitle': 'Web application frameworks',
             'skills': ['Ruby on Rails', 'Spring MVC']
+          },
+          {
+            'subtitle': 'Javascript frameworks',
+            'skills': ['AngularJS', 'Backbone.js']
           },
           {
             'subtitle': 'Mobile application frameworks',
             'skills': ['Android', 'Apache Cordova']
           },
           {
+            'subtitle': 'Templating frameworks',
+            'skills': ['Handlebars', 'HAML', 'JSP', 'Liquid']
+          },
+          {
             'subtitle': 'Content management systems',
             'skills': ['Ghost', 'Wordpress']
+          },
+          {
+            'subtitle': 'Databases',
+            'skills': ['MySQL', 'Postgres', 'SQLite']
           },
           {
             'subtitle': 'Testing',

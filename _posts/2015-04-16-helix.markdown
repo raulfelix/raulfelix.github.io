@@ -8,6 +8,6 @@ logoLink: www.commbank.com.au
 technologies: CSS3, JavaScript, HTML5, C# .NET, XML
 ---
 
-Working alonside specialist architects, build a design language and architect "themeable" apps to move assets into a new age of device agnostic environments as well as creating greater alliance between channels. This was a technology driven project the details of which are sensitive.
+Working alongside specialist architects, build a design language and architect "themeable" apps to move assets into a new age of device agnostic environments as well as creating greater alliance between channels. This was a technology driven project the details of which are sensitive.
 
 As a front end developer I was brought on for my knowledge of JavaScript, CSS3, HTML5 and Android. I took ownership of implementing the theming taxonomy and design patterns of the API. I often lead small groups of developers, sharing knowledge of best practices throughout these teams in the bank and working very closely with the UX lead.

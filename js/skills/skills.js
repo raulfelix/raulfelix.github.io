@@ -23,24 +23,28 @@
             'skills': ['Java', 'PHP', 'Ruby', 'C#']
           },
           {
-            'subtitle': 'Javascript frameworks',
-            'skills': ['AngularJS', 'Backbone.js']
-          },
-          {
-            'subtitle': 'Templating frameworks',
-            'skills': ['Handlebars', 'HAML', 'JSP']
-          },
-          {
             'subtitle': 'Web application frameworks',
             'skills': ['Ruby on Rails', 'Spring MVC']
+          },
+          {
+            'subtitle': 'Javascript frameworks',
+            'skills': ['AngularJS', 'Backbone.js']
           },
           {
             'subtitle': 'Mobile application frameworks',
             'skills': ['Android', 'Apache Cordova']
           },
           {
+            'subtitle': 'Templating frameworks',
+            'skills': ['Handlebars', 'HAML', 'JSP', 'Liquid']
+          },
+          {
             'subtitle': 'Content management systems',
             'skills': ['Ghost', 'Wordpress']
+          },
+          {
+            'subtitle': 'Databases',
+            'skills': ['MySQL', 'Postgres', 'SQLite']
           },
           {
             'subtitle': 'Testing',

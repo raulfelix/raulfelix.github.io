@@ -9,4 +9,4 @@ logoLink: lifewithoutandy.com
 technologies: Wordpress, PHP, HTML5, Javascript
 ---
 
-Working alongside award winning designer [Jonny Brian](http://jonnybrian.com), we implemened a mobile first, responsive Wordpress theme including many CMS customisations right down to hand crafted SQL queries. Integration with various social media platforms including Facebook and Instagram are included as well as galleries that work great on mobile. The customisations allow the boys to churn out content daily.
+Working alongside award winning designer [Jonny Brian](http://jonnybrian.com), we implemented a mobile first, responsive Wordpress theme including many CMS customisations right down to hand crafted SQL queries. Integration with various social media platforms including Facebook and Instagram are included as well as galleries that work great on mobile. The customisations allow the boys to churn out content daily.
