@@ -12,8 +12,9 @@ $medium: 'robotomedium';
 //
 // colours
 //
-$black: #333333;
+$black: #4a4a4a;
 $white: #ffffff;
+$grey: #dddddd;
 
 //
 // mixins
@@ -65,10 +66,10 @@ $white: #ffffff;
 
 @mixin bp($point) {
   @if $point == mobile {
-    @media (min-width: 0px) and (max-width: 603px) { @content; }
+    @media (min-width: 0px) and (max-width: 604px) { @content; }
   }
   @else if $point == tablet {
-    @media (min-width: 604px) and (max-width: 1024px) { @content; }
+    @media (min-width: 605px) and (max-width: 1024px) { @content; }
   }
   
   @else if $point == desktop {
