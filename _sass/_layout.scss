@@ -10,11 +10,42 @@
   padding: rem(60) 0;
 }
 
+.card {
+  border-bottom: 1px solid #f0f0f0;
+  padding: rem(30) 0;
+  margin-bottom: rem(5);
+  overflow: auto;
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .small {
+    max-width: rem(160);
+  }
+  
+  .link {
+    display: inline-block;
+    padding: 0;
+  }
+  
+  img {
+    display: inline-block;
+    width: 70px;
+  }
+  
+  &:last-child {
+    border: none;
+  }
+}
+
+
 .card-tabular {
   background-color: $white;
   border: 1px solid #F0F0F0;
   overflow: auto;
   padding: rem(40);
+  margin-bottom: rem(60);
   
   .card-row {
     margin-bottom: rem(40); 
@@ -32,11 +63,38 @@
       clear: both;
     }
   }
+  
+  .skillset {
+    margin-bottom: rem(30);  
+  }
+  
+  .skill {
+    padding: rem(3);
+    background-color: #fafafa;
+    margin: rem(4) rem(6) 0 0;
+    display: inline-block;
+    border-radius: 4px;
+  }
 }
+
+.data {
+  margin-bottom: rem(30);
+  
+  p, .downloadable {
+    font-size: 14px;
+    margin-bottom: rem(5);
+  }
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
 
 .l-break-top {
   margin-top: rem(60);
 }
+
 
 @include bp(mobile) {
   .card-tabular {

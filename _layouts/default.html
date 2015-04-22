@@ -5,7 +5,7 @@ title: Raul Felix Carrizo
 
 <!DOCTYPE html>
 
-<html ng-app="app.raulfelix">
+<html ng-app="app">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
@@ -27,106 +27,82 @@ title: Raul Felix Carrizo
         </div>
       </div>
     </section>
+    
     <section class="content-secondary">
       <div class="f-grid f-row">
         <div class="f-1">
-          <h2>Education</h2>
-          <h6>Bachelor of Software Engineering</h6>
-          <p>The University of Sydney</p>
+          <h2>Professional experience</h2>
           
-          <div class="input input-inline l-break-top" ng-controller="SkillsCtrl as skills">
-            <h2>Detailed skills</h2>
-<!--            <input type="text" placeholder="Search skillset..." />-->
+          {% for post in site.posts %}
+            {% include work.html %}
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    
+    <section class="content-primary">
+      <div class="f-grid f-row">
+        <div class="f-1">
+          <h2>Education</h2>
+          
+          <div class="data">
+            <h6>Bachelor of Software Engineering</h6>
+            <p>The University of Sydney</p>
+            <a class="downloadable" href="{{ site.url }}/assets/downloads/advanced_engineering_offer.jpg" target="_blank">
+              <i class="icon-download"></i>
+              <span>Advanced engineering offer</span>
+            </a>
           </div>
+          
+          <h2 class="l-break-top">Certifications/Conferences</h2>
+          <div class="data">
+            <h6>Ruby Conference</h6>
+            <p>Australia - 2014</p>
+            <a class="downloadable" href="http://www.rubyconf.org.au/2014" target="_blank">
+              View the topics
+            </a>
+          </div>
+          <div class="data">
+            <h6>Agile delivery phase</h6>
+            <p>Agile Academy, Suncorp Australia - 2011</p>
+            <a class="downloadable" href="{{ site.url }}/assets/downloads/agile_cert.jpg" target="_blank">
+              <i class="icon-download"></i>
+              <span>Certificate</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="content-secondary">
+      <div class="f-grid f-row">
+        <div class="f-1" ng-controller="SkillsCtrl">        
+          <div class="input input-inline">
+            <h2>Skills breakdown</h2>
+            <input type="text" placeholder="Search skillset..." ng-model="searchable"/>
+          </div>
+          
           <div class="card-tabular">
-            <div class="card-row">
+            <div class="card-row" ng-repeat="skill in skillsets | filter:searchable">
               <div class="f-1-3 bp-s-1">
-                <h6>Industry experience</h6>
+                <h6>{[{ skill.area }]}</h6>
               </div>
               <div class="f-2-3 bp-s-1">
-                <ul>
-                  <li>Mining</li>
-                  <li>Finance (CBA)</li>
-                  <li>Government (DOD)</li>
-                  <li>Education/Scientific research</li>
+                
+                <ul ng-if="skill.expertise">
+                  <li ng-repeat="item in skill.expertise | filter:searchable">{[{ item }]}</li>
                 </ul>
+                
+                <div class="skillset" ng-if="skill.disciplines" ng-repeat="item in skill.disciplines">
+                  <h6>{[{ item.subtitle }]}</h6>
+                  <p>
+                    <span class="skill" ng-repeat="s in item.skills | filter:searchable">{[{ s }]}</span>
+                  </p>
+                </div>
+                
               </div>
             </div>
-            
-            <div class="card-row">
-              <div class="f-1-3 bp-s-1">
-                <h6>Main technologies</h6>
-              </div>
-              <div class="f-2-3 bp-s-1">
-                <h6>Front end</h6>
-                <p>HTML5, CSS3, Sass, Javascript, Grunt</p>
-                
-                <h6>Programming languages</h6>
-                <p>Java, PHP, Ruby, C#</p>
-                
-                <h6>Javascript frameworks</h6>
-                <p>AngularJS, Backbone</p>
-                
-                <h6>Templating frameworks</h6>
-                <p>Handlebars, HAML, JSP, Razor</p>
-                
-                <h6>Web application frameworks</h6>
-                <p>Ruby on Rails, Spring MVC</p>
-                
-                <h6>Mobile application frameworks</h6>
-                <p>Android Native, Apache Cordova</p>
-                
-                <h6>Content management systems</h6>
-                <p>Ghost, Wordpress</p>
-                
-                <h6>Testing</h6>
-                <p>Mocha, Phantom JS, Jasmine, Rspec, Cucumber, Selenium</p>
-              </div>
-            </div>
-            
-            <div class="card-row">
-              <div class="f-1-3 bp-s-1">
-                <h6>Processes</h6>
-              </div>
-              <div class="f-2-3 bp-s-1">
-                <ul>
-                  <li>Agile</li>
-                  <li>Kanban</li>
-                  <li>SDLC</li>
-                  <li>Behavioural driven development (BDD)</li>
-                  <li>Test driven development (TDD)</li>
-                </ul>
-              </div>
-            </div>
-            
-            <div class="card-row">
-              <div class="f-1-3 bp-s-1">
-                <h6>Productivity tools</h6>
-              </div>
-              <div class="f-2-3 bp-s-1">
-                <ul>
-                  <li>Jira</li>
-                  <li>Git</li>
-                  <li>Bitbucket</li>
-                  <li>Confluence</li>
-                </ul>
-              </div>
-            </div>
-            
-            <div class="card-row">
-              <div class="f-1-3 bp-s-1">
-                <h6>Other</h6>
-              </div>
-              <div class="f-2-3 bp-s-1">
-                <ul>
-                  <li>Sketch</li>
-                  <li>Photoshop</li>
-                  <li>Illustrator</li>
-                </ul>
-              </div>
-            </div>
-            
-          </div>
+          </div> 
         </div>
       </div>
     </section>

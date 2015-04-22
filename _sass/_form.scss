@@ -5,15 +5,11 @@ input {
   padding: rem(10);
   width: rem(320);
   
-  &:active, &:focus {
-    border: 1px solid #8bedff;
-  }
+//  &:active, &:focus {
+//    border: 1px solid #8bedff;
+//  }
 }
 
-
-.input {
-  
-}
 
 .input-inline {
   position: relative;

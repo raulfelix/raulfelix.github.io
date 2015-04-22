@@ -5,6 +5,7 @@ a {
   
   &:hover {
     background-color: #f5f5f5;
+    border-bottom: none;
   }
 }
 
@@ -19,7 +20,7 @@ h1, h2, h5 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: rem(20);
 }
 
@@ -36,18 +37,44 @@ h4 {
   margin-bottom: rem(20);
 }
 
-h6 {
+h6, .h6 {
   font-family: $medium;
   font-size: 14px;
+}
+
+.h6 {
+  padding: 0;
 }
 
 p {
   font-size: 18px;
   margin-bottom: rem(20);
+  line-height: 1.6;
+}
+
+.content-primary p:last-child {
+  margin-bottom: 0;
 }
 
 .content-secondary {
-  p {
+  p, li {
     font-size: 14px;
   }
+  
+  a {
+    background-color: $white;
+
+    &:hover {
+      background-color: #f5f5f5;
+    }
+  }
+  
+  .link {
+    background-color: transparent;
+  }
+}
+
+p.small {
+  font-size: 12px;
+  line-height: 1.5;
 }

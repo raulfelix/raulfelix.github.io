@@ -1,0 +1,11 @@
+---
+layout: post
+title: Lead Front End Engineer/UX Specialist
+company: Commonwealth Bank
+duration: Oct 2014 - present
+logo: assets/images/logo-cba.png
+logoLink: www.commbank.com.au
+technologies: AngularJS, Apache Cordova, Grunt, Javascript, Design thinking
+---
+
+The details of this work is sensitive but the nature of the work is to provide software development skills in mobile and web contexts as well as user experience guidance. In addition, I build prototypes that experiment with technologies and user interaction patterns which are then taken into production.

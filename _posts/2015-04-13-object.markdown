@@ -1,0 +1,14 @@
+---
+layout: post
+title: Consultant/Android developer
+company: Object Consulting - cxTravel
+companyInfo: One of Australia's leaders in the delivery of enterprise business solutions through the innovative use of technologies such as Enterprise Java, .NET, Ruby and Salesforce as well as Open Source components. 
+duration: Oct 2011 - Feb 2012
+logo: assets/images/logo-oc.png
+logoLink: www.objectconsulting.com.au
+technologies: IntelliJ IDEA, Java, Maven, Hudson, Google C2DM servers, JSON
+---
+
+Connected Experience is a product which integrates a number of technologies including the Microsoft Surface multi-touch screen (Samsung SUR40) as well as Windows, Android and iPhone mobile devices. As an Android developer I built the native experience which would communicate with the Microsoft Surface table to download and manage various types’ of media.
+
+I was responsible for all aspects of Android development including the build process, development, testing and publication. The Android app works across a number of Android API levels spanning from version 2.2 up to the latest Jelly Bean 4.* versions. It also runs a various device sizes.

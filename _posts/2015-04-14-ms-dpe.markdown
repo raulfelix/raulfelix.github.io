@@ -1,0 +1,13 @@
+---
+layout: post
+title: Front End Engineer
+company: Microsoft Australia - DPE
+duration: Mar 2012 - May 2012
+logo: assets/images/logo-ms.png
+logoLink: www.microsoft.com
+technologies: HTML5, CSS3, JavaScript, JQuery, C# MVC3, Visual Studio
+---
+
+The Microsoft Development Platform Evangelists (DPE) Portal is an intranet site allowing members to share snippets of innovative material sourced from the internet amongst members of Microsoft Australia.
+
+The content was to be presented in an engaging manner to suplement the innovative nature of the material. This was a single page application driven by Javascript. I consulted and managed all front end development integrating the use of AJAX, JavaScript, CSS3 and HTML5. The end result was a dynamic user interface demonstrating the power of the latest scripting and CSS techniques.

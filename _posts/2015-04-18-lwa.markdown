@@ -1,0 +1,12 @@
+---
+layout: post
+title: Lead Front End Engineer
+company: Life Without Andy
+companyInfo: Pop culture news and photography site with a global fan base. 
+duration: Aug 2014 - Nov 2014
+logo: assets/images/logo-lwa.png
+logoLink: lifewithoutandy.com
+technologies: Wordpress, PHP, HTML5, Javascript
+---
+
+Working alongside award winning designer [Jonny Brian](http://jonnybrian.com), we implemened a mobile first, responsive Wordpress theme including many CMS customisations right down to hand crafted SQL queries. Integration with various social media platforms including Facebook and Instagram are included as well as galleries that work great on mobile. The customisations allow the boys to churn out content daily.
