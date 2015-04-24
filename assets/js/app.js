@@ -3,7 +3,8 @@
 (function() {
   
   angular.module('app', [
-    'app.skills'
+    'app.skills',
+    'app.nav'
   ])
   .config(['$compileProvider', '$interpolateProvider', function($compileProvider, $interpolateProvider) {
     
@@ -14,6 +15,16 @@
     $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
   }]);
 
+  angular
+    .module('app.nav', [])
+    .controller('NavCtrl', NavCtrl);
+  
+  function NavCtrl($scope) {
+    $scope.up = function() {
+      Velocity(document.body, "scroll", { offset: "0px"});
+    }
+  }
+  
 })();
 (function() {
 

@@ -108,6 +108,24 @@
   margin-top: rem(60);
 }
 
+.back-up {
+  background-color: #667b84;
+  color: #8ba2ac;
+  height: rem(60);
+  font-family: $medium;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  
+  span {
+    line-height: rem(60);
+  }
+  
+  &:hover {
+    color: $white;
+    cursor: pointer;
+  }
+}
 
 @include bp(mobile) {
   .card-tabular {
