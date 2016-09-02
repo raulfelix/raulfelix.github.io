@@ -11,14 +11,16 @@ strong {
   font-weight: normal;
 }
 
-h1, h2, h5 {
-  font-family: $light;
+
+h1 {
+  font-family: $medium;
   font-size: 32px;
 }
 
 h2 {
   font-size: 20px;
-  margin-bottom: rem(20);
+  font-family: $medium;
+  margin-bottom: rem(50);
 }
 
 h5 {
@@ -53,14 +55,26 @@ h6, .h6 {
   padding: 0;
 }
 
+ul li {
+  font-size: 16px;
+  margin-bottom: rem(16);
+}
+
 p {
   font-size: 18px;
   margin-bottom: rem(20);
   line-height: 1.6;
 }
 
-.content-primary p:last-child {
-  margin-bottom: 0;
+.content-primary {
+
+  p {
+    font-size: 16px;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .content-secondary {

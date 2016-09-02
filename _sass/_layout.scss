@@ -1,14 +1,17 @@
-.content {
-}
 
 .content-primary {
-  padding: rem(60) 0;
+  padding: rem(80) 0;
 }
 
-.content-secondary {
-  background-color: #fafafa;
-  padding: rem(60) 0;
+.content-break {
+  border-top: 1px solid #e8e8e8;
 }
+
+
+.human-quote {
+  margin-top: rem(70);
+}
+
 
 .card {
   border-bottom: 1px solid #f0f0f0;
@@ -128,6 +131,13 @@
 }
 
 @include bp(mobile) {
+  
+  // .content-primary {
+  //   .bp-s-1 {
+  //     margin-bottom: rem(40);
+  //   }
+  // }
+
   .card-tabular {
     padding: rem(20);
   }
