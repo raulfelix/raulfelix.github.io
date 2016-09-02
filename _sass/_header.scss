@@ -1,31 +1,43 @@
 header {
-  background-color: #7A909A;
   height: rem(184);
-  color: $white;
+  color: $black;
   position: relative;
-  
+
   div {
     height: 100%;
   }
   
   h1 {
+    font-family: $medium;
     margin-top: rem(85);
   }
-  
-  .download {
+
+  h6:after {
+    content: '';
+    background-color: #E8E8E8;
+    display: block;
+    height: 1px;
+    margin-top: 40px;
+    width: 100px;
+  }
+
+  .section-download {
     position: absolute;
-    bottom: rem(38);
+    top: 50%;
     right: rem(10);
   }
-  
-  .downloadable {
+
+  .btn {
+    border-radius: 32px;
+    border: 1px solid $black;
+    color: $black;
+    display: block;
     font-size: 14px;
-    background-color: rgba(0,0,0,0.05);
-    color: $white;
-    margin-left: rem(10);
-    
+    padding: rem(12) rem(24);
+
     &:hover {
       background-color: rgba(0,0,0,0.1);
+      text-decoration: none;
     }
   }
 }
@@ -35,15 +47,13 @@ header {
     h1 {
       margin-top: rem(60);
     }
-    
-    .download {
-      bottom: rem(10);
+
+    .section-download {
+      top: rem(185);
       right: auto;
-      left: rem(5);
+      .btn {
+        font-size: 14px;
+      }
     }
-  }
-  
-  header .downloadable {
-    margin: 0 rem(10) 0 0;
   }
 }

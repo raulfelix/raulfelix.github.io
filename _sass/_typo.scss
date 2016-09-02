@@ -1,11 +1,8 @@
 a {
-  background-color: #fafafa;
   color: #0091EA;
-  padding: 0 3px;
   
   &:hover {
-    background-color: #f5f5f5;
-    border-bottom: none;
+    text-decoration: underline;
   }
 }
 
@@ -33,13 +30,23 @@ h5 {
 
 h4 {
   font-family: $medium;
-  font-size: 18px;
+  font-size: rem(20);
+  line-height: rem(28);
   margin-bottom: rem(20);
+}
+
+//
+// Emphasis within the text body
+//
+em {
+  font-style: normal;
+  padding: 0 rem(2);
+  background-color: $emphasis;
 }
 
 h6, .h6 {
   font-family: $medium;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .h6 {
@@ -59,14 +66,6 @@ p {
 .content-secondary {
   p, li {
     font-size: 14px;
-  }
-  
-  a {
-    background-color: $white;
-
-    &:hover {
-      background-color: #f5f5f5;
-    }
   }
   
   .link {

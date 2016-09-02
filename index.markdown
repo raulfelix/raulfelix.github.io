@@ -3,14 +3,14 @@ layout: default
 title: Raul Felix Carrizo
 ---
 
-#### Software Engineer specialising in front end architecture and user experience. My core disciplines include web and mobile application development, responsive design and rapid prototyping.
+#### As a Software Engineer I specialise in front end architecture and development. My primary focus is on web and mobile application development, responsive design and rapid prototyping. I enjoy technical challenges and interesting work. 
 
-##### I enjoy technical challenges and piecing together technologies that create good web experiences. I write a lot of native HTML, CSS and Javascript as well as using frameworks like AngularJS and Backbone. I also build native mobile apps primarily targeted at the Android platform.
+#### I write a lot of native *HTML*, *CSS* and *Javascript* and have plenty experience with frameworks like *AngularJS* and *Backbone* as well as the very excellent *ReactJS* library. I also build native and hybrid mobile apps.
 
-Right now... 
+Currently... 
 
-Working for the **Commonwealth Bank** exploring the future of customer and staff engagement models through rapid prototyping and design thinking. I am also exploring technology stacks and workflow patterns.
+Working for the **Commonwealth Bank** using ReactJS and the latest in Javascript to build fast and engaging web applications.
 
-I recently collaborated on and built [lifewithoutandy.com](http://lifewithoutandy.com) - a customised Wordpress site with a global fan base.
+I collaborated on and built [lifewithoutandy.com](http://lifewithoutandy.com) - a customised Wordpress site with a global fan base.
 
-Please get in touch at [raulfelixcarrizo@gmail.com](mailto:raulfelixcarrizo@gmail.com) to find out more about me.
+To contact me please email [raulfelixcarrizo@gmail.com](mailto:raulfelixcarrizo@gmail.com)

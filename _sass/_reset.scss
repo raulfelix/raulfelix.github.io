@@ -23,7 +23,8 @@ body {
   font-family: $light;
   font-size: rem($base-font-size);
   background-color: $white;
-  
+  color: $black;
+
   // better font rendering
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
