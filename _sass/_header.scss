@@ -49,11 +49,7 @@ header {
     }
 
     .section-download {
-      top: rem(185);
-      right: auto;
-      .btn {
-        font-size: 14px;
-      }
+      display: none;
     }
   }
 }
