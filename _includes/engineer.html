@@ -1,8 +1,15 @@
 <section class="content-primary content-break">
   <div class="f-grid f-row">
     <div class="f-2-3 bp-s-1">
-      <h2>The engineer...</h2>
+      <h2 class="site-h2">The engineer...</h2>
       <p>I like to make a note now and then on things I should keep in mind for my work.</p>
+
+      {% for post in site.posts %}
+        <a href="{{ post.url }}" class="preview">
+          <span class="preview-title">{{ post.title }}</span>
+          <span class="preview-subtitle" >{{ post.subtitle }}</span>
+        </a>
+      {% endfor %}
     </div>
   </div>
 </section>

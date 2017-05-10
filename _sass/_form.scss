@@ -1,3 +1,40 @@
+
+.btn {
+  height: rem(44);
+  line-height: rem(40);
+  outline: 0;
+  padding: 0 rem(40);
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  white-space: nowrap;
+  -webkit-appearance: none;
+
+  background-color: transparent;
+  border-radius: 32px;
+  border: 1px solid $black;
+  color: $black;
+  cursor: pointer;
+  font-family: $medium;
+  font-size: rem(14);
+
+  &:hover {
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.btn.icon {
+  display: inline-block;
+  line-height: 48px;
+  font-size: 20px;
+  padding: 0;
+  border-radius: rem(48);
+  height: rem(48);
+  width: rem(48);
+}
+
 input {
   border: 1px solid #F0F0F0;
   font-size: 14px;

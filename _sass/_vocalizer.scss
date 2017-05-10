@@ -1,0 +1,18 @@
+.vocalize {
+  background-color: transparent;
+  border-radius: 50%;
+  color: $black;
+  font-size: 16px;
+  text-align: center;
+
+  display: inline-block;
+  vertical-align: top;
+  margin-left: rem(3);
+  width: rem(28);
+  height: rem(28);
+  
+  &:hover {
+    cursor: pointer;
+    background-color: $emphasis; 
+  }
+}

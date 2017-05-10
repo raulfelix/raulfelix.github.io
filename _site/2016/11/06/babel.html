@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+  <title>Raul Felix Carrizo</title>
+  <link rel="icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/css/master.css">
+</head>
+
+<body>
+
+  <header>
+    <a href="/" class="btn btn-back icon icon-arrow-left" title="Go home"></a>
+    <div class="f-grid f-row">
+      <div class="f-1">
+        <h1>{"babel"=>"*1.2.3"}</h1>
+        <h3>The best way to control your package versions</h3>
+      </div>
+    </div>
+  </header>
+
+  <div class="content">
+    <section class="content-post">
+      <div class="f-grid f-row">
+        <div class="f-1">
+          <h2 id="having-control-of-your-node-package-versions-is-important-but-sometimes-becomes-a-bit-of-an-after-thought-when-you-are-more-focussed-on-getting-up-an-running">Having control of your node package versions is important but sometimes becomes a bit of an after thought when you are more focussed on getting up an running.</h2>
+
+<p>Perhaps this is because of how simple it is to get started with node modules needing only a short command such as <code>npm install react --save</code> to get you started.</p>
+
+<p>It kinda makes you feel…</p>
+
+<p><img src="/assets/images/babel-image1.jpg" alt="A baby boss" /></p>
+
+<p>Usually however, libraries change and they can do so very quickly. We are all busy people and often can fail to keep up with the changes which can include new features, more dependencies or breaking changes.</p>
+
+<h2 id="lets-do-things-better">Lets do things better</h2>
+
+<p>By default you get this in your package.json which says “give me all major 
+updates and patches - i’m cool with that”. This might mean upgrading to
+version 0.16.3 which could be a good or bad thing.</p>
+
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span>
+  <span class="nt">&quot;react&quot;</span> <span class="p">:</span> <span class="s2">&quot;^0.15.1&quot;</span>
+<span class="p">}</span></code></pre></div>
+
+<p>To avoid that sort of trouble take back control of what happens when you 
+install packages and use this which says “give me any patch for react but 
+don’t upgrade the version”.</p>
+
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span>
+  <span class="nt">&quot;react&quot;</span> <span class="p">:</span> <span class="s2">&quot;0.15.*&quot;</span>
+<span class="p">}</span></code></pre></div>
+
+<p>This is a much better approach where you are in full control of what changes and when.</p>
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+  <button id="arrriba" type="button" class="btn">Arrriba!</button>
+</footer>
+
+  </div>
+
+  <!-- TODO concat vendor and app scripts -->
+  <script type="text/javascript" src="/assets/js/nav.js"></script>
+</body>
+  
+</html>

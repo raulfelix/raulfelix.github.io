@@ -6,14 +6,8 @@ title: Raul Felix Carrizo
 <!DOCTYPE html>
 
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
-  <title>Raul Felix Carrizo</title>
 
-  <link rel="icon" href="{{ site.url }}/assets/images/favicon.ico">
-  <link rel="stylesheet" href="css/master.css">
-</head>
+{% include head.html %}
 
 <body>
   
@@ -30,6 +24,7 @@ title: Raul Felix Carrizo
 
     {% include human.html %}
     {% include engineer.html %}
+    {% include footer.html %}
 
     <!--section class="content-primary">
       <div class="f-grid f-row">
@@ -77,6 +72,10 @@ title: Raul Felix Carrizo
 
 
   </div>
+
+  <!-- TODO concat vendor and app scripts -->
+  <script type="text/javascript" src="{{ site.url }}/assets/js/nav.js"></script>
+  <script type="text/javascript" src="{{ site.url }}/assets/js/vocalize.js"></script>
 
 </body>
   

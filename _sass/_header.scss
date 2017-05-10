@@ -10,6 +10,7 @@ header {
   h1 {
     font-family: $medium;
     margin-top: rem(85);
+    position: relative;
   }
 
   h6:after {
@@ -28,18 +29,20 @@ header {
   }
 
   .btn {
-    border-radius: 32px;
-    border: 1px solid $black;
-    color: $black;
     display: block;
-    font-size: 14px;
-    padding: rem(12) rem(24);
+  }
 
+  .btn-back {
+    border: none;
+    position: fixed;
+    top: rem(80);
+    left: rem(24);
+    z-index: 10;
     &:hover {
-      background-color: rgba(0,0,0,0.1);
-      text-decoration: none;
+      background-color: $emphasis; 
     }
   }
+  
 }
 
 @include bp(mobile) {

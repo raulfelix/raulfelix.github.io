@@ -11,31 +11,48 @@ strong {
   font-weight: normal;
 }
 
-
-h1 {
+.site-h1 {
   font-family: $medium;
   font-size: 32px;
 }
 
-h2 {
+.site-h2 {
   font-size: 20px;
   font-family: $medium;
   margin-bottom: rem(50);
 }
+
+h1 {
+  font-size: 30px;
+  font-family: $medium;
+  line-height: rem(40);
+}
+
+h2 {
+  font-size: rem(20);
+  font-family: $medium;
+  line-height: rem(30);
+  margin-bottom: rem(30);
+}
+
+h3 {
+  font-size: rem(16);
+  font-family: $medium;
+  line-height: rem(30);
+}
+
+h4 {
+  font-family: $medium;
+  font-size: rem(20);
+  line-height: rem(28);
+}
+
 
 h5 {
   font-size: 18px;
   margin-bottom: rem(60);
 }
 
-
-
-h4 {
-  font-family: $medium;
-  font-size: rem(20);
-  line-height: rem(28);
-  margin-bottom: rem(20);
-}
 
 //
 // Emphasis within the text body
@@ -64,6 +81,31 @@ p {
   font-size: 18px;
   margin-bottom: rem(20);
   line-height: 1.6;
+
+}
+
+.content-post {
+  p {
+    font-size: 20px;
+    code {
+      background-color: #EDEDED;
+      padding: 2px 3px;
+    }
+  }
+  
+  pre {
+    background-color: #EDEDED;
+    color: #000;
+    padding: rem(20) rem(40);
+
+    code {
+      font-size: rem(16);
+    }
+  }
+
+  .highlight + p {
+    margin-top: rem(40);
+  }
 }
 
 .content-primary {
