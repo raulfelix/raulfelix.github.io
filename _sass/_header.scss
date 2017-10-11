@@ -35,9 +35,13 @@ header {
 
 @include bp(mobile) {
   header {
-    .btn-back {
-      top: rem(10);
-      left: rem(10);
+    .site-h1 {
+      font-size: 26px;
+    }
+    
+    .site-h2 {
+      font-size: 60px;
+      margin-bottom: rem(35);
     }
   }
 }

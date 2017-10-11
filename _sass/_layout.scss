@@ -1,9 +1,39 @@
 .u-spacing-4x {
   margin-bottom: rem(64);
 }
+
+.content-row {
+  padding: rem(80) 0;
+
+  &.centered {
+    .section-header {
+      margin-bottom: rem(70);
+      .section-icon {
+        margin-bottom: rem(40);
+      }
+    }
+  
+    p,
+    .section-header,
+    .section-header .section-title {
+      text-align: center;
+    }
+  }
+
+  a {
+    background-color: #4A4A4A;
+    color: #FFD117;
+    padding: 0 rem(2);
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
 .content-row.beige {
   padding-bottom: rem(70);
-
+  padding-top: 0;
+  
   p {
     color: #D9C8AD;
   }
@@ -14,7 +44,6 @@
 
 .content-row.blue {
   background-color: #44B9ED;
-  padding: rem(80) 0;
 
   p {
     color: $black;
@@ -23,59 +52,25 @@
   a {
     background-color: #0B9CDC;
     color: $white;
-    padding: 0 rem(2);
-    &:hover {
-      text-decoration: none;
-    }
-  }
-}
-
-.section-header,
-.section-header .section-title {
-  text-align: center;
-}
-
-.section-header {
-  margin-bottom: rem(70);
-  .section-icon {
-    margin-bottom: rem(40);
   }
 }
 
 .content-row.yellow {
   background-color: #FFD117;
-  padding: rem(80) 0;
-
-  a {
-    background-color: #4A4A4A;
-    color: #FFD117;
-    padding: 0 rem(2);
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
-  p, .section-title {
-    color: #000000;
-  }
-
-  p, .section-title {
-    text-align: center;
-  }
 }
 
 .content-row.pink {
   background-color: #FF576F;
-  padding: rem(80) 0;
+}
 
-  p, .section-title {
+.content-row.pink,
+.content-row.yellow {
+  p,
+  .section-title {
     color: #000000;
   }
-
-  p, .section-title {
-    text-align: center;
-  }
 }
+
 
 .content-primary {
   padding: rem(80) 0;
@@ -83,11 +78,6 @@
 
 .content-break {
   border-top: 1px solid #e8e8e8;
-}
-
-
-.human-quote {
-  margin-top: rem(70);
 }
 
 
