@@ -1,31 +1,12 @@
 header {
-  height: rem(184);
   color: $black;
+  padding-top: rem(100);
   position: relative;
 
-  div {
-    height: 100%;
-  }
-  
   h1 {
     font-family: $medium;
-    margin-top: rem(85);
     position: relative;
-  }
-
-  h6:after {
-    content: '';
-    background-color: #E8E8E8;
-    display: block;
-    height: 1px;
-    margin-top: 40px;
-    width: 100px;
-  }
-
-  .section-download {
-    position: absolute;
-    top: 50%;
-    right: rem(10);
+    margin-bottom: rem(24);
   }
 
   .btn {
@@ -45,14 +26,18 @@ header {
   
 }
 
+@include bp(tablet) {
+  header .btn-back {
+    top: rem(10);
+    left: rem(10);
+  }
+}
+
 @include bp(mobile) {
   header {
-    h1 {
-      margin-top: rem(60);
-    }
-
-    .section-download {
-      display: none;
+    .btn-back {
+      top: rem(10);
+      left: rem(10);
     }
   }
 }

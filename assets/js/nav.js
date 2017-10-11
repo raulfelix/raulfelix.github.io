@@ -53,7 +53,7 @@
   };
 
   document.getElementById('arrriba').addEventListener('click', function() {
-    Scroller.scroll(document.body, 0, 300);
+    setTimeout(function() { window.scrollTo(0, 0); }, 1);
   }, false);
 
 })();

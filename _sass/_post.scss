@@ -33,7 +33,13 @@
 .content-post {
   padding-bottom: rem(60);
 
-  p + h2 {
+  p + h2,
+  ul + h2 {
     margin-top: rem(50);
+  }
+
+  h2 + p img {
+    display: block;
+    width: 100%;
   }
 }

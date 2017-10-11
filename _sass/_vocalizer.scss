@@ -1,7 +1,7 @@
 .vocalize {
   background-color: transparent;
   border-radius: 50%;
-  color: $black;
+  color: #D9C8AD;
   font-size: 16px;
   text-align: center;
 
@@ -13,6 +13,6 @@
   
   &:hover {
     cursor: pointer;
-    background-color: $emphasis; 
+    background-color: rgba(0,0,0,0.3);
   }
 }

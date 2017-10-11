@@ -6,8 +6,8 @@ $base_font_size: 16;
 //
 // font families
 //
-$light:  'ReplicaStd-Light';
-$medium: 'ReplicaStd-Regular';
+$light:  'Circular Std';
+$medium: 'MarvinVisions Bold';
 
 //
 // colours
@@ -71,11 +71,7 @@ $emphasis: #D8F5FC;
     @media (min-width: 0px) and (max-width: 604px) { @content; }
   }
   @else if $point == tablet {
-    @media (min-width: 605px) and (max-width: 1024px) { @content; }
-  }
-  
-  @else if $point == desktop {
-    @media (min-width: 1025px) { @content; }
+    @media (min-width: 605px) and (max-width: 920px) { @content; }
   }
 }
 

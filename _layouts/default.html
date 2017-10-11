@@ -12,19 +12,12 @@ title: Raul Felix Carrizo
 <body>
   
   {% include header.html %}
-  
-  <div class="content">
-    <section class="content-primary">
-      <div class="f-grid f-row">
-        <div class="f-1">
-          {{ content }}
-        </div>
-      </div>
-    </section>
+  {% include intro.html %}
+  {% include current.html %}
 
-    {% include human.html %}
-    {% include engineer.html %}
-    {% include footer.html %}
+  {% include human.html %}
+  {% include engineer.html %}
+  {% include footer.html %}
 
     <!--section class="content-primary">
       <div class="f-grid f-row">
@@ -70,8 +63,6 @@ title: Raul Felix Carrizo
       </div>
     </section-->
 
-
-  </div>
 
   <!-- TODO concat vendor and app scripts -->
   <script type="text/javascript" src="{{ site.url }}/assets/js/nav.js"></script>

@@ -1,8 +1,6 @@
 a {
-  color: #0091EA;
-  
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -12,14 +10,23 @@ strong {
 }
 
 .site-h1 {
+  color: #D9C8AD;
   font-family: $medium;
-  font-size: 32px;
+  font-size: 35px;
+  line-height: normal;
+  margin-bottom: 0;
 }
 
 .site-h2 {
-  font-size: 20px;
+  color: #FF576F;
+  font-size: 75px;
   font-family: $medium;
-  margin-bottom: rem(50);
+  line-height: normal;
+  margin-bottom: rem(40);
+}
+
+.section-title {
+  font-size: 35px;
 }
 
 h1 {
@@ -58,9 +65,8 @@ h5 {
 // Emphasis within the text body
 //
 em {
+  colour: #FF576F;
   font-style: normal;
-  padding: 0 rem(2);
-  background-color: $emphasis;
 }
 
 h6, .h6 {
@@ -73,19 +79,22 @@ h6, .h6 {
 }
 
 ul li {
-  font-size: 16px;
+  font-size: 19px;
   margin-bottom: rem(16);
+  margin-left: rem(20);
+  list-style: disc;
 }
 
 p {
-  font-size: 18px;
+  font-family: $light;
+  font-size: 20px;
   margin-bottom: rem(20);
   line-height: 1.6;
-
 }
 
 .content-post {
-  p {
+  p,
+  ul li {
     font-size: 20px;
     code {
       background-color: #EDEDED;
