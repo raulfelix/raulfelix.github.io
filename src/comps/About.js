@@ -7,7 +7,7 @@ const About = () => (
       <div className="f-1">
         <div className="section-header">
           <img className="section-icon" src={brain} alt="The brain" />
-          <h2 className="section-title">Finally a couple things about me</h2>
+          <h2 className="section-title">A few things about me</h2>
         </div>
         <p>Football is my first love.</p>
         <p>I speak Spanish and Italian.</p>

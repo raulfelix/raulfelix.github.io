@@ -1,7 +1,3 @@
-.u-spacing-4x {
-  margin-bottom: rem(64);
-}
-
 .section-header-inline {
   display: flex;
   flex-direction: row;
@@ -9,6 +5,13 @@
 
   h2 {
     margin: 0 0 0 rem(32);
+  }
+}
+
+
+@include bp(mobile) {
+  .section-icon {
+    width: 50px;
   }
 }
 
