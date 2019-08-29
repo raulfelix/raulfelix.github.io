@@ -1,0 +1,146 @@
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+strong {
+  font-family: $medium;
+  font-weight: normal;
+}
+
+.site-h1 {
+  color: #D9C8AD;
+  font-family: $light;
+  font-size: 35px;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.site-h2 {
+  color: #FF576F;
+  font-size: 95px;
+  font-family: $medium;
+  line-height: normal;
+  margin-bottom: rem(40);
+}
+
+.section-title {
+  font-size: 54px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: $medium;
+  line-height: rem(40);
+}
+
+h2 {
+  font-size: rem(20);
+  font-family: $light;
+  line-height: rem(30);
+  margin-bottom: rem(30);
+}
+
+h3 {
+  font-size: rem(16);
+  font-family: $medium;
+  line-height: rem(30);
+}
+
+h4 {
+  font-family: $medium;
+  font-size: rem(20);
+  line-height: rem(28);
+}
+
+
+h5 {
+  font-size: 18px;
+  margin-bottom: rem(60);
+}
+
+
+//
+// Emphasis within the text body
+//
+em {
+  colour: #FF576F;
+  font-style: normal;
+}
+
+h6, .h6 {
+  font-family: $medium;
+  font-size: 16px;
+}
+
+.h6 {
+  padding: 0;
+}
+
+
+p {
+  font-family: $light;
+  font-size: 32px;
+  margin-bottom: rem(20);
+  line-height: 1.6;
+}
+
+ul li {
+  font-family: $light;
+  font-size: 32px;
+  margin: 0 0 rem(16) rem(32);
+  list-style: disc;
+  line-height: 1;
+}
+
+.content-post {
+  p,
+  ul li {
+    font-size: 20px;
+    code {
+      background-color: #EDEDED;
+      padding: 2px 3px;
+    }
+  }
+  
+  pre {
+    background-color: #EDEDED;
+    color: #000;
+    padding: rem(20) rem(40);
+
+    code {
+      font-size: rem(16);
+    }
+  }
+
+  .highlight + p {
+    margin-top: rem(40);
+  }
+}
+
+.content-primary {
+
+  p {
+    font-size: 16px;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.content-secondary {
+  p, li {
+    font-size: 14px;
+  }
+  
+  .link {
+    background-color: transparent;
+  }
+}
+
+p.small {
+  font-size: 12px;
+  line-height: 1.5;
+}
