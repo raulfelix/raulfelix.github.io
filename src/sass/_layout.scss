@@ -21,24 +21,9 @@
   }
 }
 
-// .centered {
-//   .section-header {
-//     margin-bottom: rem(70);
-//     .section-icon {
-//       margin-bottom: rem(40);
-//     }
-//   }
-
-//   p,
-//   .section-header,
-//   .section-header .section-title {
-//     text-align: center;
-//   }
-// }
-
 .content-row {
   padding: rem(80) 0;
-
+  padding-bottom: 0;
   a {
     background-color: #4A4A4A;
     color: #FFD117;
@@ -87,6 +72,7 @@
 
 .content-row.yellow {
   background-color: #FFD117;
+  padding: rem(80) 0;
 }
 
 .content-row.pink {

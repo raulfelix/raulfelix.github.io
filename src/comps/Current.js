@@ -1,7 +1,8 @@
 import React from 'react';
+import NextButton from './NextButton';
 
 const Current = () => (
-  <section className="content-row blue">
+  <section className="content-row blue" id="current">
     <div className="f-grid f-row">
       <div className="f-1">
         <p className="section-title">Currently...</p> 
@@ -9,6 +10,7 @@ const Current = () => (
         <p>I like to collaborate in my spare time and built <a href="http://www.lifewithoutandy.com" target="_blank" rel="noopener noreferrer">lifewithoutandy.com</a> - a customised
           Wordpress site with a global fan base.</p>
         <p>To chat you can reach me at <a href="mailto:raulfelixcarrizo@gmail.com">raulfelixcarrizo@gmail.com</a></p>
+        <NextButton target="engineer" color="#4A4A4A" />
       </div>
     </div>
   </section>

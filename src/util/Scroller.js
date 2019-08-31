@@ -48,7 +48,7 @@ function scrollTo(anchor, duration, callback = () => {}, offset = 0) {
  * @param {Object} anchor DOM element to scroll to
  * @param {Number} duration Duration of the animation effect
  */
-export function scrollBodyTo(anchor, duration, callback = () => {}, offset = 0) {
+export function scrollBodyTo(anchor, duration = 600, callback = () => {}, offset = 0) {
   scrollTo(anchor, duration, callback, offset);
 }
 
