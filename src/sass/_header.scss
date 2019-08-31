@@ -12,6 +12,7 @@ header {
 
 @include bp(mobile) {
   header {
+    padding-top: rem(60);
     .site-h1 {
       font-size: 30px;
     }
