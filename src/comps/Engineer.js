@@ -3,7 +3,7 @@ import compass from '../images/compass.svg';
 import NextButton from './NextButton';
 
 const Engineer = () => (
-  <section className="content-row pink" id="engineer">
+  <section className="content-row paper" id="engineer">
     <div className="f-grid f-row">
       <div className="f-1">
         <div className="section-header-inline mb-4">

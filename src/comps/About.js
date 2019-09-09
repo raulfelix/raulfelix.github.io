@@ -13,7 +13,7 @@ const About = () => (
     </div>
     <div className="f-grid f-row">
       <div className="f-1-2 bp-m-1 bp-s-1">
-        <p>Football is my first love.</p>
+        <p>Football.</p>
         <p>I speak Spanish and Italian.</p>
         <p>I am a good listener.</p>
         <p>Peroni is my beer.</p>

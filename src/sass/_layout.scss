@@ -24,6 +24,7 @@
 .content-row {
   padding: rem(80) 0;
   padding-bottom: 0;
+  position: relative;
   a {
     background-color: #4A4A4A;
     color: #FFD117;
@@ -75,10 +76,6 @@
   padding: rem(80) 0;
 }
 
-.content-row.pink {
-  background-color: #FF576F;
-
-  em {
-    border-bottom: 4px solid; 
-  }
+.content-row.paper {
+  background-color: #D9C8AD;
 }
