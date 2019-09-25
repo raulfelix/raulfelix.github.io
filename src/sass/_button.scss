@@ -33,10 +33,33 @@
   }  
 }
 
-.btn-special {
-  
-}
+.btn-work {
+  background-color: hsl(0, 0%, 29%);
+  border: none;
+  border-radius: 0;
+  border-bottom:4px solid #d9c8ad;
+  color: #d9c8ad;
+  padding: 0;
+  font-size: 32px;
+  font-family: $light;
 
+  &:hover {
+    cursor: pointer;
+    color: #FF576F;
+    border-bottom-color: #FF576F;
+  }
+  &:focus {
+    box-shadow: #FF576F 0px 0px 0px 3px;
+    outline: none;
+  } 
+}
+.action__button {
+  background-color: #4a4a4a;
+  position: relative;
+  top: 0px;
+  padding: 20px 0 20px;
+  z-index: 1000;
+}
 .btn.icon {
   display: inline-block;
   line-height: 48px;
