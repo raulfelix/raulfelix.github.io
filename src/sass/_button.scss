@@ -39,7 +39,7 @@
   border-radius: 0;
   border-bottom:4px solid #d9c8ad;
   color: #d9c8ad;
-  padding: 0;
+  padding: 0 0 2px 0;
   font-size: 32px;
   font-family: $light;
 
@@ -53,6 +53,13 @@
     outline: none;
   } 
 }
+
+@include bp(mobile) {
+  .btn-work {
+    font-size: 20px;
+    border-bottom-width: 3px;
+  }
+}
 .action__button {
   background-color: #4a4a4a;
   position: relative;
@@ -60,6 +67,7 @@
   padding: 20px 0 20px;
   z-index: 1000;
 }
+
 .btn.icon {
   display: inline-block;
   line-height: 48px;

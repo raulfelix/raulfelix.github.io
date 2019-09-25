@@ -27,7 +27,7 @@ const Work = ({ onClose }) => (
       </div>
 
       <div className="work__item">
-        <a className="work__item-title" href="http://lifewithoutandy.com" target="_blank" rel="noopener noreferrer">Energy Made Easy</a>
+        <a className="work__item-title" href="https://www.energymadeeasy.gov.au" target="_blank" rel="noopener noreferrer">Energy Made Easy</a>
         <p>A collaboration piece for the Australian Energy Regulator. Rebuilding the process for people to easily compare their electricity and gas plans to find better rates and deals.</p>
         <ul className="pill_group">
           <li className="pill">React</li>
