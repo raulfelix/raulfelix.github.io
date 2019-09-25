@@ -10,13 +10,31 @@
   z-index: 10000;
 
   .btn-close {
-    color: #8931d6;
     position: fixed;
     right: 60px;
     top: 50px;
     font-size: 24px;
     font-family: $light;
     z-index: 10;
+    height: 32px;
+    width: 32px;
+    .one,
+    .two {
+      left: 0;
+      background-color: #FF576F;
+      height: 5px;
+      position: absolute;
+      width: 32px;
+    }
+
+    .one {
+      top: 9px;
+      transform: rotate(45deg);
+    }
+    .two {
+      top: 9px;
+      transform: rotate(-45deg);
+    }
   }
 
   .modal__content {

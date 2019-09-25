@@ -2,7 +2,10 @@ import React from 'react';
 
 const Work = ({ onClose }) => (
   <div className="modal">
-    <button type="button" className="btn-close" onClick={onClose}>Close</button>
+    <button type="button" className="btn-close" onClick={onClose}>
+      <span className="one"></span>
+      <span className="two"></span>
+    </button>
     <div className="modal__content">
       <div className="work__item">
         <a className="work__item-title" href="http://kalendar.s3-website-ap-southeast-2.amazonaws.com" target="_blank" rel="noopener noreferrer">Kalendar</a>
