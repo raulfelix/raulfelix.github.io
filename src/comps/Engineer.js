@@ -18,7 +18,7 @@ const Engineer = () => (
         <ul>
           <li>Living design systems</li>
           <li>Micro frontends</li>
-          <li>AAA compliant accessible apps</li>
+          <li>Accessible applications</li>
           <li>Responsive web apps</li>
           <li>Mobile applications</li>
         </ul>

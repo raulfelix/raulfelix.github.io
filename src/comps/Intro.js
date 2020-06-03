@@ -9,9 +9,9 @@ const Intro = () => {
       <section className="content-row beige">
         <div className="f-grid f-row">
           <div className="f-1">
-            <p>I specialise in <em>Front end</em> architecture and development. My primary focus is on web and mobile application development, user experience 
-              and rapid prototyping.</p> 
-            <p>I enjoy technical challenges and write a lot of <em>HTML</em>, <em>CSS</em> and <em>Javascript</em> and have plenty experience with <em>React</em>, <em>React Native</em> and <em>Vue.js</em>.</p>
+            <p>I specialise in <em>Front end</em> architecture and development. I spend most of my time in the code but like to get involved in user experience 
+              and accessibility.</p>
+            <p>I like technical challenges and solving problems with the best tech <em>Javascript</em> has to offer. Things like <em>React</em>, <em>GraphQL</em>, <em>Apollo client</em> and <em>styled components</em>.</p>
             <div className="action__button">
               <button type="button" className="btn-work" onClick={() => setWork(true)}>See my work</button>
             </div>
