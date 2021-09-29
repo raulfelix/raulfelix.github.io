@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
+import { blue } from "./colour.styles";
 import { Text, Ul } from "./typography.styles";
 
 export const Engineering = styled.div`
-  background-color: #ddf4ff;
+  background-color: ${blue};
 `;
 
 export const TextType = styled(Text)`

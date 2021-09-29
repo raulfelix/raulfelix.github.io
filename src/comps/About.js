@@ -3,14 +3,15 @@ import brain from '../images/brain.svg';
 import { Row } from './Global.styles';
 import { Header50, Link, Text } from './typography.styles';
 import * as Styled from './about.styles';
+import { HeaderIconTitle } from './header.styles';
 
 const About = () => (
   <Styled.About id="about">
     <Row>
-        <div className="section-header section-header-inline mb-4">
+        <HeaderIconTitle>
           <img className="section-icon section-icon--brain" src={brain} alt="The brain" />
           <Header50>And a little about me</Header50>
-          </div>
+          </HeaderIconTitle>
         <Text>Love Football. Futbal. Calcio.</Text>
         <Text>I speak Español and Italiano.</Text>
         <Text>Super good listener.</Text>

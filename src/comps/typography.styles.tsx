@@ -5,7 +5,7 @@ import { rem } from "./utils.styles";
 export const fontFamilyBase = `'Circular-std', system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif`;
 
 export const fontWeightLight = "300";
-export const fontWeightNormal = "400";
+export const fontWeightNormal = "Circular-std";
 export const fontWeightMedium = "Circular-Std-Bold";
 export const fontWeightBold = "Circular-Std-Black";
 
@@ -37,10 +37,12 @@ export const Header50 = styled.h2`
   font-size: ${rem(50)};
   line-height: ${rem(60)};
   font-family: ${fontWeightBold};
+  margin-bottom: ${rem(32)};
 `;
 
 export const Text = styled.p`
   ${font32}
+  margin-bottom: ${rem(32)};
 `;
 
 export const Ul = styled.ul`
@@ -49,6 +51,8 @@ export const Ul = styled.ul`
 
   li {
     ${font32}
+    margin: 0 0 ${rem(8)} ${rem(48)};
+    padding: 0;
     line-height: ${rem(38)};
   }
 `;
@@ -69,4 +73,8 @@ export const Link = styled.a`
     box-shadow: 0 0 0 3px ${linkText};
     outline: none;
   }
+`;
+
+export const Em = styled.em`
+  font-style: normal;
 `;
