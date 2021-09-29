@@ -1,0 +1,19 @@
+footer {
+  background-color: #B762FF;
+  padding: rem(100) 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .btn {
+    min-width: rem(220);
+  }
+}
+
+
+@include bp(mobile) {
+  footer {
+    padding: rem(60) 0;
+  }
+}

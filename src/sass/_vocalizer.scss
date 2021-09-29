@@ -1,0 +1,24 @@
+.vocalize {
+  background-color: transparent;
+  border-radius: 50%;
+  color: #D9C8AD;
+
+  display: inline-block;
+  font-size: 24px;
+  margin-left: rem(3);
+  text-align: center;
+  vertical-align: top;
+  height: rem(32);
+  width: rem(32);
+  transition: box-shadow 0.3s ease-in-out 0s;
+
+  &:focus {
+    box-shadow: #D9C8AD 0px 0px 0px 3px;
+    outline: none;
+  }  
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+  }
+}

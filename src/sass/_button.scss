@@ -1,0 +1,79 @@
+
+.btn {
+  height: rem(50);
+  line-height: rem(40);
+  outline: 0;
+  padding: 0 rem(40);
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  white-space: nowrap;
+  -webkit-appearance: none;
+
+  background-color: $white;
+  border-radius: 32px;
+  border: 4px solid #8931d6;
+  color: #000000;
+  cursor: pointer;
+  font-family: $medium;
+  font-size: rem(26);
+
+  &:hover {
+    background-color: $white;
+    cursor: pointer;
+    text-decoration: none;
+    transform: scale(1.05) translateY(-4px);
+  }
+
+  transition: all 0.1s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
+
+  &:focus {
+    box-shadow: #dbb3ff 0px 0px 0px 3px;
+    outline: none;
+  }  
+}
+
+.btn-work {
+  background-color: hsl(0, 0%, 29%);
+  border: none;
+  border-radius: 0;
+  border-bottom:4px solid #d9c8ad;
+  color: #d9c8ad;
+  padding: 0 0 2px 0;
+  font-size: 32px;
+  font-family: $light;
+
+  &:hover {
+    cursor: pointer;
+    color: #FF576F;
+    border-bottom-color: #FF576F;
+  }
+  &:focus {
+    box-shadow: #FF576F 0px 0px 0px 3px;
+    outline: none;
+  } 
+}
+
+@include bp(mobile) {
+  .btn-work {
+    font-size: 20px;
+    border-bottom-width: 3px;
+  }
+}
+.action__button {
+  background-color: #4a4a4a;
+  position: relative;
+  top: 0px;
+  padding: 20px 0 20px;
+  z-index: 1000;
+}
+
+.btn.icon {
+  display: inline-block;
+  line-height: 48px;
+  font-size: 20px;
+  padding: 0;
+  border-radius: rem(48);
+  height: rem(48);
+  width: rem(48);
+}
