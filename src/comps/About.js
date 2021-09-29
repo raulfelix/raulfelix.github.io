@@ -3,7 +3,7 @@ import brain from '../images/brain.svg';
 import { Row } from './Global.styles';
 import { Header50, Link, Text } from './typography.styles';
 import * as Styled from './about.styles';
-import { HeaderIconTitle } from './header.styles';
+import { HeaderIconTitle } from './header-intro.styles';
 
 const About = () => (
   <Styled.About id="about">

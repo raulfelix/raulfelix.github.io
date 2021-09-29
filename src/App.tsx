@@ -1,7 +1,7 @@
 import "./sass/index.scss";
 
 import React from "react";
-import Header from "./comps/header";
+import Header from "./comps/header-intro";
 import Current from "./comps/Current";
 import Intro from "./comps/Intro";
 import About from "./comps/About";

@@ -5,7 +5,7 @@ import { Row } from './Global.styles';
 import { Engineering, TextType, UlType } from './engineer.styles';
 import { Header50 } from './typography.styles';
 import NextButton from './NextButton';
-import { HeaderIconTitle } from './header.styles';
+import { HeaderIconTitle } from './header-intro.styles';
 
 const Engineer = () => (
   <Engineering id="engineer">

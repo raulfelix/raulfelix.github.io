@@ -1,6 +1,6 @@
 import React from "react";
 
-import * as Styled from "./header.styles";
+import * as Styled from "./header-intro.styles";
 // import audio from '../audio/raul_es.mp3';
 // let track = new Audio(audio);
 // track.playbackRate = .75;
