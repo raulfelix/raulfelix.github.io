@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 import { rem } from "../utils.styles";
+import { baseRow } from "./Global.styles";
 
 export const Header = styled.header`
+  ${baseRow}
   padding-top: ${rem(100)};
   position: relative;
 `;
