@@ -3,14 +3,15 @@ import React from 'react';
 import compass from '../images/compass.svg';
 import { Row } from './Global.styles';
 import { Engineering, TextType, UlType } from './engineer.styles';
+import { Header50 } from './typography.styles';
 import NextButton from './NextButton';
 
 const Engineer = () => (
-  <Engineering className="content-row" id="engineer">
+  <Engineering id="engineer">
     <Row>
         <div className="section-header-inline mb-4">
           <img className="section-icon" src={compass} alt="Pair of compasses"/>
-          <h2 className="section-title">Engineering</h2>
+          <Header50 className="section-title">Engineering</Header50>
         </div>
         <TextType>Great things happen at the point where design and engineering meet...</TextType>
         <TextType>I understand how to work within a design team to craft cutting edge experiences and translate that into high quality front end code.

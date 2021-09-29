@@ -13,6 +13,14 @@ export const NextButton = styled.button`
 
   &:focus {
     box-shadow: inset 0 0 0 3px ${linkText};
-    outline: none;
+    outline: 0;
+  }
+
+  &:focus:not(:focus-visible) {
+    box-shadow: none;
+  }
+
+  &:focus-visible {
+    box-shadow: inset 0 0 0 3px ${linkText};
   }
 `;

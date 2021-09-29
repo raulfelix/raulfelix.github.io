@@ -22,9 +22,13 @@ const Current = () => (
         every person on Earth.
       </Text>
       <Text>
-        I like to collaborate in my spare time, to chat you can reach me at{" "}
-        <Link href="mailto:raulfelixcarrizo@gmail.com">
-          raulfelixcarrizo@gmail.com
+        I like to collaborate in my spare time, to chat you can reach me via{" "}
+        <Link
+          href="https://www.linkedin.com/in/ra%C3%BAl-felix-carrizo-70716439/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
         </Link>
       </Text>
     </Row>
