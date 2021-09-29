@@ -43,7 +43,7 @@
     "prettier": "^2.4.1"
   },
   "lint-staged": {
-    "*.{tsx}": [
+    "*.tsx": [
       "yarn run eslint --max-warnings 0",
       "prettier --write"
     ]
