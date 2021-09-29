@@ -1,7 +1,7 @@
 import React from 'react';
 import { scrollBodyTo } from '../util/Scroller';
 
-const NextButton = ({target, color = '#fff'}) => (
+const NextButton = ({target, color = '#000'}) => (
   <div className="next" style={{textAlign: 'center'}}>
     <button
       type="button"

@@ -1,8 +1,6 @@
 import { css, BaseThemedCssFunction, CSSObject } from "styled-components/macro";
 import { useState, useCallback, useEffect } from "react";
 
-export const fontFamilyBase = `CalibreSchoolWeb, Calibre, CalibreSchool, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif`;
-
 export const PIXELS_PER_REM = 16;
 
 export const BREAKPOINT_SM = 576;

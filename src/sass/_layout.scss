@@ -21,26 +21,6 @@
   }
 }
 
-.content-row {
-  padding: rem(80) 0;
-  padding-bottom: 0;
-  position: relative;
-  a {
-    background-color: #4A4A4A;
-    color: #FFD117;
-    padding: 0 rem(2);
-    &:hover {
-      text-decoration: none;
-    }
-
-    transition: box-shadow 0.3s ease-in-out 0s;
-    &:focus {
-      box-shadow: #a28613 0px 0px 0px 3px;
-      outline: none;
-    }
-  }
-}
-
 .content-row.beige {
   padding-top: 0;
   
