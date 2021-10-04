@@ -1,9 +1,9 @@
 import React from "react";
 
-import { Header50, Link, Text } from "./typography.styles";
+import { Header50, Link, Text } from "../typography.styles";
+import NextButton from "../shared/next-button";
+import inqLogo from "../../images/inquisitive_logo.svg";
 import * as Styled from "./current.styles";
-import NextButton from "./next-button";
-import inqLogo from "../images/inquisitive_logo.svg";
 
 const Current = () => (
   <Styled.Current id="current">

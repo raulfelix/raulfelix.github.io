@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import { Row } from "./Global.styles";
-import { rem } from "./utils.styles";
+import { Row } from "../Global.styles";
+import { rem } from "../utils.styles";
 
 export const Current = styled.div`
   background-color: #f9f0ff;

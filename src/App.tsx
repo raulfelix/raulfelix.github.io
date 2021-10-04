@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from "./comps/header-intro";
-import Current from "./comps/current";
+import Current from "./comps/current/current";
 import Intro from "./comps/Intro";
 import About from "./comps/About";
 import Engineer from "./comps/Engineer";

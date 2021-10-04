@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { linkText } from "./colour.styles";
+import { linkText } from "../colour.styles";
 
 export const NextButton = styled.button`
   background: none;

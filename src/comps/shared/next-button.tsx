@@ -1,7 +1,7 @@
 import React from "react";
-import { scrollBodyTo } from "../util/Scroller";
+import { scrollBodyTo } from "../../util/Scroller";
 
-import iconDropDown from "../images/icon_dropdown.svg";
+import iconDropDown from "../../images/icon_dropdown.svg";
 import * as Styled from "./next-button.styles";
 
 type Props = {

@@ -4,7 +4,7 @@ import { Row } from './Global.styles';
 import { Header50} from './typography.styles';
 import { Spacing48 } from './spacing.styles';
 import { WorkText, WorkLink, PillGroup, Pill } from './work.styles';
-import NextButton from './next-button';
+import NextButton from './shared/next-button';
 
 const Work = () => (
   <div id="work">
