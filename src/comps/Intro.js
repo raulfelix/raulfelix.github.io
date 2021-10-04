@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Row } from './Global.styles';
-import NextButton from './NextButton';
+import NextButton from './next-button';
 import { Text, Em } from './typography.styles';
 import * as Styled from './intro.styles';
 
