@@ -20,7 +20,7 @@ const Current = () => (
             Inquisitive
           </Link>{" "}
           — an EdTech SaaS platform bringing quality educational content to K-6
-          classrooms across AU and US.
+          classrooms across Australia and the US.
         </Text>
         <Text>
           I like to collaborate and advise — to chat reach me on{" "}

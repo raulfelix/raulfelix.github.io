@@ -1,19 +1,14 @@
 import React from "react";
 
-import compass from "../images/compass.svg";
 import { Row } from "./Global.styles";
 import { Engineering, TextType, UlType } from "./engineer.styles";
 import { Header50 } from "./typography.styles";
 import NextButton from "./shared/next-button";
-import { HeaderIconTitle } from "./header-intro.styles";
 
 const Engineer = () => (
   <Engineering id="engineer">
     <Row>
-      <HeaderIconTitle>
-        <img className="section-icon" src={compass} alt="Pair of compasses" />
-        <Header50 className="section-title">Engineering</Header50>
-      </HeaderIconTitle>
+      <Header50 className="section-title">Engineering</Header50>
       <TextType>
         Great things happen at the intersection of design, engineering, and
         leadership.
