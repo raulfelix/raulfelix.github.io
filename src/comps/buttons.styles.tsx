@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { rem } from "./utils.styles";
 import { fontWeightMedium } from "./typography.styles";
-import { white, text } from "./colour.styles";
+import { white, text, blue } from "./colour.styles";
 
 export const Button = styled.button`
   background-color: ${white};
@@ -19,7 +19,7 @@ export const Button = styled.button`
 
   background-color: $white;
   border-radius: ${rem(32)};
-  border: 4px solid #8931d6;
+  border: 4px solid ${blue};
   color: ${text};
   cursor: pointer;
   font-family: $medium;
@@ -35,6 +35,6 @@ export const Button = styled.button`
   transition: all 0.1s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s;
 
   &:focus {
-    box-shadow: #dbb3ff 0px 0px 0px 3px;
+    box-shadow: #fde68a 0px 0px 0px 3px;
    
 `;

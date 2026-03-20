@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Header50, Link, Text } from "../typography.styles";
+import { Header50, Link, Text, Em } from "../typography.styles";
 import NextButton from "../shared/next-button";
 import inqLogo from "../../images/inquisitive_logo.svg";
 import * as Styled from "./current.styles";
@@ -11,7 +11,7 @@ const Current = () => (
       <Styled.CurrentCol>
         <Header50>Currently...</Header50>
         <Text>
-          I’m working with{" "}
+          I’m <Em>Head of Engineering</Em> at{" "}
           <Link
             href="https://inquisitive.com/"
             target="_blank"
@@ -19,11 +19,11 @@ const Current = () => (
           >
             Inquisitive
           </Link>{" "}
-          where we are building a platform to bring quality educational content
-          to every person on Earth.
+          — an EdTech SaaS platform bringing quality educational content to K-6
+          classrooms across AU and US.
         </Text>
         <Text>
-          I like to collaborate in my spare time, to chat you can reach me via{" "}
+          I like to collaborate and advise — to chat reach me on{" "}
           <Link
             href="https://www.linkedin.com/in/ra%C3%BAl-felix-carrizo-70716439/"
             target="_blank"

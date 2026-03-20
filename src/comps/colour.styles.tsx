@@ -1,8 +1,8 @@
 export const text = "#212121";
 export const paper = "#D9C8AD";
-export const link = "#ddf4ff";
-export const linkText = "#0969da";
+export const link = "#fef3c7";
+export const linkText = "#92400e";
 export const white = "#ffffff";
 export const smoke = "#f7f7f7";
-export const red = "#ff576f";
-export const blue = "#ddf4ff";
+export const red = "#c2410c";
+export const blue = "#f5f0eb";

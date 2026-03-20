@@ -19,7 +19,7 @@ const Header = () => (
       ></button> */}
       </Styled.HeaderName>
       <Styled.HeaderTitle>
-        Software Engineer{" · "}User Experience{" · "}Accessibility
+        Head of Engineering{" · "}Technical Architecture{" · "}Product
       </Styled.HeaderTitle>
     </Styled.HeaderRow>
   </Styled.Header>

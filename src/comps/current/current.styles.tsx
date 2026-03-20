@@ -4,7 +4,12 @@ import { Row } from "../Global.styles";
 import { rem } from "../utils.styles";
 
 export const Current = styled.div`
-  background-color: #f9f0ff;
+  background-color: #1c1917;
+  color: #faf7f2;
+
+  .next img {
+    filter: invert(1);
+  }
 `;
 
 export const CurrentRow = styled(Row)`

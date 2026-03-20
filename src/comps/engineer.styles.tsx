@@ -8,11 +8,13 @@ export const Engineering = styled.div`
 `;
 
 export const TextType = styled(Text)`
-  font-family: courier;
+  font-family: "IBM Plex Mono", monospace;
 `;
 
 export const UlType = styled(Ul)`
+  margin-bottom: 32px;
+
   li {
-    font-family: courier;
+    font-family: "IBM Plex Mono", monospace;
   }
 `;

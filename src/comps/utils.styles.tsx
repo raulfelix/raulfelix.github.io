@@ -95,7 +95,10 @@ export const useMediaQuery = (mediaQuery: MinMediaQuery) => {
     window.matchMedia(mediaQuery).matches
   );
 
-  const onResize = useCallback((e) => setIsMq(e.matches), []);
+  const onResize = useCallback(
+    (e: MediaQueryListEvent) => setIsMq(e.matches),
+    []
+  );
 
   useEffect(() => {
     const mql = window.matchMedia(mediaQuery);

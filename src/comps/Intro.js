@@ -9,9 +9,8 @@ const Intro = () => {
   return (
     <Styled.Intro>
         <Row>
-            <Text>I specialise in <Em>Front end</Em> architecture and development. I spend most of my time coding but like to get involved in user experience 
-              and accessibility.</Text>
-            <Text>I like technical challenges and solving problems with the best tech <Em>Javascript</Em> has to offer. Things like <Em>React</Em>, <Em>GraphQL</Em>, <Em>Apollo Client</Em> and <Em>Styled Components</Em>.</Text>
+            <Text>I lead engineering organisations through scale — currently <Em>Head of Engineering</Em> at Inquisitive, where I've grown the team from 4 to 15+ engineers across multiple squads.</Text>
+            <Text>I operate at the intersection of technical architecture, product strategy, and org design — partnering with founders to translate business goals into engineering roadmaps, while coaching teams to deliver with autonomy and accountability.</Text>
         </Row>
         <NextButton target="current" />
     </Styled.Intro>

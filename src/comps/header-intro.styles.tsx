@@ -5,7 +5,7 @@ import { Row } from "./Global.styles";
 import { font24, font48, fontWeightBold, Header50 } from "./typography.styles";
 
 export const Header = styled.header`
-  background-color: #dafbe1;
+  background-color: #faf7f2;
   padding: 0;
 `;
 
