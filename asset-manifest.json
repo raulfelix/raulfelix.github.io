@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4cbc03d.css",
+    "main.js": "/static/js/main.2b12e2ec.js",
+    "static/media/CircularStd-Bold.woff": "/static/media/CircularStd-Bold.ecf373980cb69b7961d8.woff",
+    "static/media/CircularStd-Black.woff": "/static/media/CircularStd-Black.868c3cdb92c24f3d91ef.woff",
+    "static/media/CircularStd-Medium.woff": "/static/media/CircularStd-Medium.e1c58eaa4be5f5e8e7a4.woff",
+    "static/media/CircularStd-Book.woff": "/static/media/CircularStd-Book.4b3d33f62baab73f6b42.woff",
+    "static/media/CircularStd-Bold.woff2": "/static/media/CircularStd-Bold.8e413a1a3ed102cfb306.woff2",
+    "static/media/CircularStd-Black.woff2": "/static/media/CircularStd-Black.76b80bd0d2f3a1e6aead.woff2",
+    "static/media/CircularStd-Medium.woff2": "/static/media/CircularStd-Medium.38de5bd9b6070b258f92.woff2",
+    "static/media/CircularStd-Book.woff2": "/static/media/CircularStd-Book.3a1b0662382ca908fcea.woff2",
+    "static/media/inquisitive_logo.svg": "/static/media/inquisitive_logo.af8e9f4b5ffb42183fab6913c9f4c945.svg",
+    "index.html": "/index.html",
+    "main.e4cbc03d.css.map": "/static/css/main.e4cbc03d.css.map",
+    "main.2b12e2ec.js.map": "/static/js/main.2b12e2ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4cbc03d.css",
+    "static/js/main.2b12e2ec.js"
+  ]
+}
