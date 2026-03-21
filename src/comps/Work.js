@@ -3,13 +3,7 @@ import React from "react";
 import { Row } from "./Global.styles";
 import { Header50 } from "./typography.styles";
 import { Spacing48 } from "./spacing.styles";
-import {
-  WorkText,
-  WorkLink,
-  PillGroup,
-  Pill,
-  WorkSubText,
-} from "./work.styles";
+import { WorkText, WorkLink, PillGroup, Pill } from "./work.styles";
 import NextButton from "./shared/next-button";
 
 const Work = () => (
