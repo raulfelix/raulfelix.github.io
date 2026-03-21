@@ -21,7 +21,6 @@ export const PillGroup = styled.ul`
 export const Pill = styled.li`
   background-color: transparent;
   color: ${red};
-  display: inline-block;
   font-size: ${rem(24)};
   font-family: ${fontWeightMedium};
   list-style: none;

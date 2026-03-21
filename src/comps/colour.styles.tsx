@@ -1,4 +1,5 @@
 export const text = "#212121";
+export const text2 = "#545454";
 export const paper = "#D9C8AD";
 export const link = "#fef3c7";
 export const linkText = "#92400e";

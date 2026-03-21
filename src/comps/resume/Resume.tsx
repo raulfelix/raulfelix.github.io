@@ -31,7 +31,7 @@ const Resume = () => (
 
         <S.ResumeRole>
           <S.ResumeRoleTitle>
-            Head of Engineering — Inquisitive
+            Head of Engineering ~ Inquisitive
           </S.ResumeRoleTitle>
           <S.ResumeRoleMeta>
             2020 – Present · EdTech SaaS — K-6 classroom platform launched in AU
@@ -98,7 +98,7 @@ const Resume = () => (
 
         <S.ResumeRole>
           <S.ResumeRoleTitle>
-            Lead Front End Engineer — Shippit
+            Lead Front End Engineer ~ Shippit
           </S.ResumeRoleTitle>
           <S.ResumeRoleMeta>
             2019 – 2020 · Logistics SaaS · React, Ruby on Rails, PHP, Shopify
@@ -125,7 +125,7 @@ const Resume = () => (
 
         <S.ResumeRole>
           <S.ResumeRoleTitle>
-            Senior Software Engineer — Athena Home Loans
+            Senior Software Engineer ~ Athena Home Loans
           </S.ResumeRoleTitle>
           <S.ResumeRoleMeta>
             2018 – 2019 · FinTech — Home lending · React, Node, Salesforce
@@ -149,7 +149,7 @@ const Resume = () => (
 
         <S.ResumeRole>
           <S.ResumeRoleTitle>
-            Lead Engineer & UX Specialist — Commonwealth Bank
+            Lead Engineer & UX Specialist ~ Commonwealth Bank
           </S.ResumeRoleTitle>
           <S.ResumeRoleMeta>
             2014 – 2018 · Finance — Assisted and Digital Channels
@@ -180,7 +180,7 @@ const Resume = () => (
 
         <S.ResumeRole>
           <S.ResumeRoleTitle>
-            Lead Design Engineer — FluidIntel (Veridapt)
+            Lead Design Engineer ~ FluidIntel (Veridapt)
           </S.ResumeRoleTitle>
           <S.ResumeRoleMeta>2013 – 2014</S.ResumeRoleMeta>
           <S.ResumeBullets>
@@ -203,7 +203,7 @@ const Resume = () => (
 
         <S.ResumeRole>
           <S.ResumeRoleTitle>
-            Consultant — Software Developer — Object Consulting
+            Consultant - Software Developer ~ Object Consulting
           </S.ResumeRoleTitle>
           <S.ResumeRoleMeta>2011 – 2013</S.ResumeRoleMeta>
           <S.ResumeBullets>
@@ -218,7 +218,7 @@ const Resume = () => (
 
         <S.ResumeRole>
           <S.ResumeRoleTitle>
-            Software Engineer & Tester — Intersect Australia
+            Software Engineer & Tester ~ Intersect Australia
           </S.ResumeRoleTitle>
           <S.ResumeRoleMeta>2009 – 2011</S.ResumeRoleMeta>
           <S.ResumeBullets>

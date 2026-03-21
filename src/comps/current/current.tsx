@@ -19,11 +19,11 @@ const Current = () => (
           >
             Inquisitive
           </Link>{" "}
-          — an EdTech SaaS platform bringing quality educational content to K-6
+          - an EdTech SaaS platform bringing quality educational content to K-6
           classrooms across Australia and the US.
         </Text>
         <Text>
-          I like to collaborate and advise — to chat reach me on{" "}
+          I like to collaborate and advise, to chat reach me on{" "}
           <Link
             href="https://www.linkedin.com/in/ra%C3%BAl-felix-carrizo-70716439/"
             target="_blank"
