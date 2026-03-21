@@ -18,7 +18,12 @@ function App() {
       <Reset />
       <ViewToggle
         resumeMode={resumeMode}
-        onToggle={() => setResumeMode(!resumeMode)}
+        onToggle={() => {
+          setResumeMode(!resumeMode);
+          window.scrollTo({
+            top: 0,
+          });
+        }}
       />
       {resumeMode ? (
         <Resume />

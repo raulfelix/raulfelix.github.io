@@ -3,7 +3,6 @@ import React from "react";
 import { Row } from "./Global.styles";
 import { Engineering, TextType, UlType } from "./engineer.styles";
 import { Header50 } from "./typography.styles";
-import NextButton from "./shared/next-button";
 
 const Engineer = () => (
   <Engineering id="engineer">
@@ -33,7 +32,6 @@ const Engineer = () => (
         integrations via <em>OpenAI</em> and <em>Claude</em>.
       </TextType>
     </Row>
-    <NextButton target="work" />
   </Engineering>
 );
 

@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Header50, Link, Text, Em } from "../typography.styles";
-import NextButton from "../shared/next-button";
 import inqLogo from "../../images/inquisitive_logo.svg";
 import * as Styled from "./current.styles";
 
@@ -53,7 +52,6 @@ const Current = () => (
         </Styled.CurrentPreview>
       </Styled.CurrentCol>
     </Styled.CurrentRow>
-    <NextButton target="engineer" />
   </Styled.Current>
 );
 

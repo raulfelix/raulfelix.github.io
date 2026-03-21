@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Row } from "./Global.styles";
-import NextButton from "./shared/next-button";
 import { Text } from "./typography.styles";
 import * as Styled from "./intro.styles";
 
@@ -22,7 +21,6 @@ const Intro = () => {
           experienced enough to step back and design for scale.
         </Text>
       </Row>
-      <NextButton target="current" />
     </Styled.Intro>
   );
 };

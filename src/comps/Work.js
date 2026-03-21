@@ -4,7 +4,6 @@ import { Row } from "./Global.styles";
 import { Header50 } from "./typography.styles";
 import { Spacing48 } from "./spacing.styles";
 import { WorkText, WorkLink, PillGroup, Pill } from "./work.styles";
-import NextButton from "./shared/next-button";
 
 const Work = () => (
   <div id="work">
@@ -55,7 +54,6 @@ const Work = () => (
         </PillGroup>
       </Spacing48>
     </Row>
-    <NextButton target="about" />
   </div>
 );
 
