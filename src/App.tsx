@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import Header from "./comps/header-intro";
 import Current from "./comps/current/current";
@@ -7,37 +7,20 @@ import About from "./comps/About";
 import Footer from "./comps/Footer";
 import { Main, Reset } from "./comps/Global.styles";
 import Work from "./comps/Work";
-import Resume from "./comps/resume/Resume";
-import ViewToggle from "./comps/ViewToggle";
 
 function App() {
-  const [resumeMode, setResumeMode] = useState(false);
-
   return (
     <>
       <Reset />
-      <ViewToggle
-        resumeMode={resumeMode}
-        onToggle={() => {
-          setResumeMode(!resumeMode);
-          window.scrollTo({
-            top: 0,
-          });
-        }}
-      />
-      {resumeMode ? (
-        <Resume />
-      ) : (
-        <Main>
-          <Header />
-          <Intro />
-          <Current />
-          {/* <Engineer /> */}
-          <Work />
-          <About />
-          <Footer />
-        </Main>
-      )}
+      <Main>
+        <Header />
+        <Intro />
+        <Current />
+        {/* <Engineer /> */}
+        <Work />
+        <About />
+        <Footer />
+      </Main>
     </>
   );
 }
